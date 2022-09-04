@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Snake Game</title>
+    </head>
+
+    <body>
+        <canvas id="canvas" width="400" height="400"></canvas>
+        <div>High Score: <span id="highScore">0</span></div>
+        <div>Average Score: <span id="averageScore">0</span></div>
+        <div>Epoch Number: <span id="epochNumber">0</span></div>
+        <div>GameSpeed: <input type="text" value="1000" id="gameSpeed" /></div>
+        <div>Alpha: <input type="text" value="0.1" id="alpha" /></div>
+        <div>Gamma: <input type="text" value="0.1" id="gamma" /></div>
+        <button onclick="resetSnake()">Reset</button>
+        <script src="game.js"></script>
+    </body>
+</html>
